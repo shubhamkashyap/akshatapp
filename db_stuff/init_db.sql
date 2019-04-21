@@ -1,6 +1,4 @@
-ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'Aks@253854';
 CREATE DATABASE IF NOT EXISTS SwacchIITB;
-GRANT ALL PRIVILEGES on SwacchIITB.* TO 'root'@'%' WITH GRANT OPTION;
 
 
 -- phpMyAdmin SQL Dump
