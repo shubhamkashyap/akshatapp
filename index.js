@@ -13,8 +13,7 @@ var connection = mysql.createConnection({
   host     : 'db' ,
   user     : 'root',
   password : 'Aks@253854',
-  database : "SwacchIITB",
-  insecureAuth : true
+  database : "SwacchIITB"
 });
 console.log("here");
 connection.connect(); 
