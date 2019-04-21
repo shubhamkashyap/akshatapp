@@ -1,7 +1,7 @@
 version: '2.1'
 services:
     node:
-          image: akshat7593/testapi_node
+          build: ./ 
           env_file:
             - ./.env
           ports:
@@ -12,7 +12,7 @@ services:
                 
           
     db:
-          image: akshat7593/testapi_db
+          build: ./db_stuff
           ports:
             - "3306:3306"
           env_file:
